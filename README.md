@@ -10,7 +10,7 @@ Experiment code of the paper "Don't Drop the Topic - The Role of the Prompt in A
     ```bash
     conda create --name env python=3.7
     conda activate env
-    pip install -r requirements.txt
+    pip install -r experiment_requirements.txt
     ```
     
 3. Split data into clusters
