@@ -13,9 +13,9 @@ Experiment code of the paper "Don't Drop the Topic - The Role of the Prompt in A
     pip install -r experiment_requirements.txt
     ```
     
-3. Split data into clusters
+3. Split data into clusters and different experiment settings
     ```bash
-    python ./datasplit.py
+    python ./data_split.py
     ```
 
 4. Training model with different settings for 15 prompts.
