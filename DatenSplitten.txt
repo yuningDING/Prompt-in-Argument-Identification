@@ -1,0 +1,16 @@
+Cluster	Essays	Train	Validation	Test
+Exploring Venus	930	744	93	93
+Face on Mars	817	655	81	81
+Electoral College	1826	1462	182	182
+Phones and Driving	705	565	70	70
+Driverless Car	1390	1112	139	139
+Getting Advice	1414	1132	141	141
+Phones in School	841	673	84	84
+Seagoing Cowboys	689	553	68	68
+Summer Projects	860	688	86	86
+Facial Action Coding	1055	845	105	105
+Community Center	712	570	71	71
+Limiting Car Usage	991	793	99	99
+Extracurricular Activities	1146	918	114	114
+Online Classes	1457	1167	145	145
+No Sports at Grade C	761	609	76	76
