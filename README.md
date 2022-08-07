@@ -18,10 +18,11 @@ Experiment code of the paper "Don't Drop the Topic - The Role of the Prompt in A
     python ./datasplit.py
     ```
 
-4. Training model with different settings for 15 prompts
+4. Training model with different settings for 15 prompts.
+For example, the same_prompt setting will be trained by:
     ```bash
     for PROMPT in 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
     do
-    python ./experiment_pipeline.py --train_prompt all_big --validate_prompt all_big --test_prompt ${PROMPT} --input ./BeaExperimentSplittedData --model allenai/longformer-large-4096 --lr 1e-5 --output ./output --max_len 1536 --epochs 10
+    python ./experiment_pipeline.py --train_prompt ${PROMPT} --validate_prompt ${PROMPT} --test_prompt ${PROMPT} --input ./data/same_prompt --model allenai/longformer-large-4096 --lr 1e-5 --output ./output --max_len 1536 --epochs 10
     done
     ```
