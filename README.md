@@ -29,7 +29,8 @@ For example, the same_prompt setting will be trained by:
 
 
 ### How to cite
-   ```@inproceedings{ding-etal-2022-dont,
+   ```
+   @inproceedings{ding-etal-2022-dont,
     title = "Don{'}t Drop the Topic - The Role of the Prompt in Argument Identification in Student Writing",
     author = "Ding, Yuning  and
       Bexte, Marie  and
@@ -43,4 +44,3 @@ For example, the same_prompt setting will be trained by:
     doi = "10.18653/v1/2022.bea-1.17",
     pages = "124--133",
     }
-    ```
