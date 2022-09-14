@@ -26,3 +26,21 @@ For example, the same_prompt setting will be trained by:
     python ./experiment_pipeline.py --train_prompt ${PROMPT} --validate_prompt ${PROMPT} --test_prompt ${PROMPT} --input ./data/same_prompt --model allenai/longformer-large-4096 --lr 1e-5 --output ./output --max_len 1536 --epochs 10
     done
     ```
+
+
+### How to cite
+   ```@inproceedings{ding-etal-2022-dont,
+    title = "Don{'}t Drop the Topic - The Role of the Prompt in Argument Identification in Student Writing",
+    author = "Ding, Yuning  and
+      Bexte, Marie  and
+      Horbach, Andrea",
+    booktitle = "Proceedings of the 17th Workshop on Innovative Use of NLP for Building Educational Applications (BEA 2022)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, Washington",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.bea-1.17",
+    doi = "10.18653/v1/2022.bea-1.17",
+    pages = "124--133",
+    }
+    ```
